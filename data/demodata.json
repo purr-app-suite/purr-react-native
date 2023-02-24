@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "title":"Hamza's Hair Salon",
+        "imgUrl":"https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2338&q=80",
+        "short_description":"Hamza's Hair Salon is a full service salon that offers a wide range of services. We are located in the heart of downtown Melbourne.",
+        "long_description":"Hamza's Hair Salon is a full service salon that offers a wide range of services. We are located in the heart of downtown Melbourne. We are a family owned and operated business that has been in the community for over 20 years. We are a full service salon that offers a wide range of services. We are located in the heart of downtown Melbourne. We are a family owned and operated business that has been in the community for over 20 years. We are a full service salon that offers a wide range of services. We are located in the heart of downtown Melbourne. We are a family owned and operated business that has been in the community for over 20 years.",
+        "category":"Hair Salon",
+        "rating":4.5,
+        "services":[
+            {
+                "id":1,
+                "title":"Haircut",
+                "price":20,
+                "description":"Haircut with a professional stylist"
+            },
+            {
+                "id":2,
+                "title":"Hairwash",
+                "price":10,
+                "description":"Hairwash with a professional stylist"
+            }
+        ],
+        "address":"1234 Main St, Melbourne, FL 32901",
+        "phone":"321-123-4567",
+        "reviews":[
+            {
+                "id":1,
+                "name":"John Doe",
+                "rating":5,
+                "review":"This is a great salon. I have been going here for years and I have never had a bad experience. The staff is very friendly and the stylists are very knowledgeable. I highly recommend this salon."
+            },
+            {
+                "id":2,
+                "name":"Jane Doe",
+                "rating":4,
+                "review":"This is a great salon. I have been going here for years and I have never had a bad experience. The staff is very friendly and the stylists are very knowledgeable. I highly recommend this salon."
+            }
+        ],
+        "long":80.645264,
+        "lat":28.083626
+    }
+]

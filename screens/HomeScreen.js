@@ -4,6 +4,8 @@ import { useNavigation } from '@react-navigation/native'
 import { ChevronDownIcon, MagnifyingGlassIcon, AdjustmentsVerticalIcon } from 'react-native-heroicons/outline'
 import { UserIcon } from 'react-native-heroicons/solid'
 import Header from '../components/Header'
+import Categories from '../components/Categories'
+import FeaturedRow from '../components/FeaturedRow'
 
 const HomeScreen = () => {
     const navigation = useNavigation()
@@ -19,7 +21,8 @@ const HomeScreen = () => {
         <Header/>
         {/* Body */}
         <ScrollView className='bg-[#F3D9DC]' contentContainerStyle={{paddingBottom: 100,}}>
-            
+            <Categories/>
+            <FeaturedRow id={0} title='for you!' description='Hand selected specialist just for you'/>
         </ScrollView>
     </SafeAreaView>
   )

@@ -4,6 +4,11 @@ import { useNavigation } from '@react-navigation/native'
 import { ChevronDownIcon, MagnifyingGlassIcon, AdjustmentsVerticalIcon } from 'react-native-heroicons/outline'
 import { UserIcon } from 'react-native-heroicons/solid'
 
+/** Header Component
+ * This Component is used to display the header
+ * Currently has a search bar and a user icon and location but its all static and does nothing
+ */
+
 const Header = () => {
   return (
     <View>
