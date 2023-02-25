@@ -9,6 +9,8 @@ import { UserIcon } from 'react-native-heroicons/solid'
  * Currently has a search bar and a user icon and location but its all static and does nothing
  */
 
+//new info
+
 const Header = () => {
   return (
     <View>
