@@ -12,7 +12,7 @@ import { MapPinIcon } from 'react-native-heroicons/solid'
 const BusinessCard = ({id, imgUrl, title, rating, category, address, phone, short_description, long_description, services, reviews, long, lat}) => {
     const navigation = useNavigation()
   return (
-    <TouchableOpacity className='bg-white w-64 mr-3 shadow rounded-lg'>
+    <TouchableOpacity className='bg-white w-64 mr-3 shadow rounded-lg' onPress={() => {navigation.navigate('Business', {id, imgUrl, title, rating, category, address, phone, short_description, long_description, services, reviews, long, lat} )}} >
         <Image source={{uri: imgUrl}} className='h-36 w-64 rounded-lg'/>
         <View className='px-3 pb-4 space-y-1'>
             <Text className='font-bold text-lg text-[#4C3549]'>{title}</Text>

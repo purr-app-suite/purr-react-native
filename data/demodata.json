@@ -11,17 +11,62 @@
             {
                 "id":1,
                 "title":"Haircut",
+                "imgUrl":"https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2338&q=80",
                 "price":20,
                 "description":"Haircut with a professional stylist"
             },
             {
                 "id":2,
                 "title":"Hairwash",
+                "imgUrl":"https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
                 "price":10,
                 "description":"Hairwash with a professional stylist"
             }
         ],
-        "address":"1234 Main St, Melbourne, FL 32901",
+        "address":"1234 Main St, Melbourne, VIC 32901",
+        "phone":"321-123-4567",
+        "reviews":[
+            {
+                "id":1,
+                "name":"John Doe",
+                "rating":5,
+                "review":"This is a great salon. I have been going here for years and I have never had a bad experience. The staff is very friendly and the stylists are very knowledgeable. I highly recommend this salon."
+            },
+            {
+                "id":2,
+                "name":"Jane Doe",
+                "rating":4,
+                "review":"This is a great salon. I have been going here for years and I have never had a bad experience. The staff is very friendly and the stylists are very knowledgeable. I highly recommend this salon."
+            }
+        ],
+        "long":80.645264,
+        "lat":28.083626
+    },
+    {
+        "id":2,
+        "title":"Hamza's Nail Salon",
+        "imgUrl":"https://images.unsplash.com/photo-1599206676335-193c82b13c9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1007&q=80",
+        "short_description":"Hamza's Nail Salon is a full service salon that offers a wide range of services. We are located in the heart of downtown Melbourne.",
+        "long_description":"Hamza's Nail Salon is a full service salon that offers a wide range of services. We are located in the heart of downtown Melbourne. We are a family owned and operated business that has been in the community for over 20 years. We are a full service salon that offers a wide range of services. We are located in the heart of downtown Melbourne. We are a family owned and operated business that has been in the community for over 20 years. We are a full service salon that offers a wide range of services. We are located in the heart of downtown Melbourne. We are a family owned and operated business that has been in the community for over 20 years.",
+        "category":"Nail Salon",
+        "rating":4.5,
+        "services":[
+            {
+                "id":1,
+                "title":"Nail Art",
+                "imgUrl":"https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+                "price":20,
+                "description":"Nail Art with a professional stylist"
+            },
+            {
+                "id":2,
+                "title":"Manicure",
+                "imgUrl":"https://images.unsplash.com/photo-1610992015762-45dca7fa3a85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=964&q=80",
+                "price":10,
+                "description":"Manicure from a professional stylist"
+            }
+        ],
+        "address":"123 High St, Melbourne, VIC 32901",
         "phone":"321-123-4567",
         "reviews":[
             {
