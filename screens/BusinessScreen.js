@@ -4,6 +4,9 @@ import { QuestionMarkCircleIcon } from 'react-native-heroicons/outline'
 import { useNavigation, useRoute } from '@react-navigation/core'
 import React, { useEffect, useLayoutEffect } from 'react'
 import ServicesRow from '../components/ServicesRow'
+import { useDispatch } from 'react-redux'
+import { setBusiness } from '../features/businessSlice'
+import BasketIcon from '../components/BasketIcon'
 
 /**
  * Need to fix 'Nearby' text feild to be dynamic
@@ -12,7 +15,12 @@ import ServicesRow from '../components/ServicesRow'
 
 const BusinessScreen = () => {
     const navigation = useNavigation();
+    const dispatch = useDispatch();
     const {params: {id, imgUrl, title, rating, category, address, phone, short_description, long_description, services, reviews, long, lat}} = useRoute()
+
+    useEffect(() => {
+        dispatch(setBusiness({id, imgUrl, title, rating, category, address, phone, short_description, long_description, services, reviews, long, lat}))
+    }, [dispatch])
 
     useLayoutEffect(() => {
         navigation.setOptions({
@@ -22,11 +30,12 @@ const BusinessScreen = () => {
 
   return (
     <>
+        <BasketIcon/>
         <ScrollView>
             <View className='relative'>
                 <Image source={{uri: imgUrl}} className='h-36 w-full bg-gray-300 p-4'/>
-                <TouchableOpacity className='absolute top-14 left-5 p-2 bg-gray-100 rounded-full' onPress={navigation.goBack}>
-                    <ArrowLeftIcon size={20} color='#00CCBB'/>
+                <TouchableOpacity className='absolute top-14 left-5 p-2 bg-[#4C3549] rounded-full' onPress={navigation.goBack}>
+                    <ArrowLeftIcon size={20} color='#F9D9DC'/>
                 </TouchableOpacity>
             </View>
             <View className='bg-[#F3D9DC]'>
