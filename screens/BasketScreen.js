@@ -53,7 +53,7 @@ const BasketScreen = () => {
                     <Text className='flex-1'>{items[0]?.title}</Text>
                     <Text className='text-gray-600'>${items[0]?.price}</Text>
                     <TouchableOpacity>
-                        <Text className='text-[#C78283] text-xs' onPress={() => dispatch(removeFromBasket({id: key}))}>Remove</Text>
+                        <Text className='text-[#C78283] text-xs' onPress={() => dispatch(removeFromBasket({id: items[0]?.id}))}>Remove</Text>
                     </TouchableOpacity>
                 </View>
             ))}
